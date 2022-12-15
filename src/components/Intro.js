@@ -1,21 +1,25 @@
 import React from 'react'
 import "../styles/Intro.css";
-import Typist from "react-typist-component";
+import Typewriter from "typewriter-effect";
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 class Intro extends React.Component {
 
-
     render() {
         return (
             <div id="intro">
-                <Typist typingDelay={120} cursor={<span className='cursor'>|</span>}>
-                    <span className="intro-title">
-                        {"hi, "}
-                        <span className="intro-name">{"kelly"}</span>
-                        {" here."}
-                    </span>
-                </Typist>
+                <Typewriter
+                    options={{
+                        strings: [
+                        "hi, kelly here."
+                        ],
+                        autoStart: true,
+                        delay: 120,
+                        loop: true,
+                        pauseFor: 1000000000,
+                    }}
+                    >
+                    </Typewriter>
                 <div className="intro-subtitle">I create stuff sometimes.</div>
                 <div className="intro-desc">
                     I'm an aspiring software engineer based in Austin, TX. I have
@@ -27,7 +31,7 @@ class Intro extends React.Component {
                     className="intro-contact"
                 >
                     <EmailOutlinedIcon></EmailOutlinedIcon>
-                    {" " + "Say hi!"}
+                    <span className="intro-hi"> &nbsp; Say hi!</span>
                 </a>
                 
             </div>
