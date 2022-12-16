@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
 import "../styles/Intro.css";
 import Typewriter from "typewriter-effect";
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import FadeInSection from './FadeInSection';
 
 class Intro extends React.Component {
 
@@ -20,6 +21,7 @@ class Intro extends React.Component {
                     }}
                     >
                     </Typewriter>
+                <FadeInSection>
                 <div className="intro-subtitle">I create stuff sometimes.</div>
                 <div className="intro-desc">
                     I'm an aspiring software engineer based in Austin, TX. I have
@@ -31,9 +33,9 @@ class Intro extends React.Component {
                     className="intro-contact"
                 >
                     <EmailOutlinedIcon></EmailOutlinedIcon>
-                    <span className="intro-hi"> &nbsp; Say hi!</span>
+                    <span className="intro-hi">&nbsp; Say hi!</span>
                 </a>
-                
+                </FadeInSection>
             </div>
         );
     }

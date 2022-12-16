@@ -15,6 +15,7 @@
     "react-scripts": "5.0.1",
     "react-typewriter": "^0.4.1",
     "react-typist-component": "^1.0.5",
+    "rsuite": "^5.23.2",
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
   },
