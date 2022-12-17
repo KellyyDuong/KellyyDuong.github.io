@@ -14,8 +14,8 @@ class About extends React.Component {
             University of Texas at Austin
           </a>
           . I am currently seeking <b>internships</b> to gain experience during my 
-          undergraduate career. Upon graduation, I hope to work in the role of a 
-          <b> Software Engineer. </b>
+          undergraduate career. Upon graduation, I hope to work full-time in the role
+          of a <b className="role"> Software Engineer. </b> 
         </p>
       );
       const two = (
@@ -32,6 +32,8 @@ class About extends React.Component {
         "Python",
         "React.js",
         "HTML & CSS",
+        "Javascript",
+        "R-Studio",
       ];
 
       const tech_items = tech_stack.map(stack => <li>{stack}</li>);
@@ -58,7 +60,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img src={"/assets/me.jpeg"} alt="Kelly"/>
+              <img src={"/assets/me.jpg"} alt="Kelly"/>
             </div>
           </div>
       </div>

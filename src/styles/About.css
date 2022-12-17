@@ -4,6 +4,10 @@
     min-height: 60vh;
 }
 
+.role {
+  color:#64ffda;
+}
+
 .section-title {
     color:#8892b0;
     font-weight: 400;
@@ -18,10 +22,10 @@
 }
 
 .about-description li {
-    position: relative;
-    padding-left: 20px;
-    font-size: 18px;
-    color: #8892b0;
+  position: relative;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #8892b0;
 }
 
 .about-description li::before {
@@ -32,13 +36,14 @@
 }
 
 .about-content {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .about-description {
     font-family: "NTR", sans-serif;
     color: #8892b0;
+    line-height: 1.6;
     max-width: 600px;
     font-size: 22px;
     text-align: justify;
@@ -59,7 +64,7 @@
     max-width: 280px;
     height: auto;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 35px;
     border: none;
     box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
 }
