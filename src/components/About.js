@@ -41,6 +41,7 @@ class About extends React.Component {
 
     return (
         <div id="about">
+          <FadeInSection>
           <div className="section-header ">
             <span className="section-title">/ about me</span>
           </div>
@@ -63,6 +64,7 @@ class About extends React.Component {
               <img src={"/assets/me.jpg"} alt="Kelly"/>
             </div>
           </div>
+      </FadeInSection>
       </div>
     )
    };
