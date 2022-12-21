@@ -65,6 +65,12 @@ canvas {
     font-weight: bolder;
   }
 
+  .mail-icon {
+   vertical-align: -6px;
+   display: inline-flex;
+   
+  }
+
   a {
     text-decoration: none;
   }

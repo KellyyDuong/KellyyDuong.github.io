@@ -32,7 +32,7 @@ class Intro extends React.Component {
                     href="mailto:kellyduong@utexas.edu"
                     className="intro-contact"
                 >
-                    <EmailOutlinedIcon></EmailOutlinedIcon>
+                    <EmailOutlinedIcon className="mail-icon"></EmailOutlinedIcon>
                     <span className="intro-hi">&nbsp; Say hi!</span>
                 </a>
                 </FadeInSection>
