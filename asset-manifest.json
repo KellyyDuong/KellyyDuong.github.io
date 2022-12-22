@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/http.//KellyyDuong.github.io/Kelly/static/css/main.59f1783a.css",
+    "main.js": "/http.//KellyyDuong.github.io/Kelly/static/js/main.9484dd75.js",
+    "static/js/787.543d9245.chunk.js": "/http.//KellyyDuong.github.io/Kelly/static/js/787.543d9245.chunk.js",
+    "index.html": "/http.//KellyyDuong.github.io/Kelly/index.html",
+    "main.59f1783a.css.map": "/http.//KellyyDuong.github.io/Kelly/static/css/main.59f1783a.css.map",
+    "main.9484dd75.js.map": "/http.//KellyyDuong.github.io/Kelly/static/js/main.9484dd75.js.map",
+    "787.543d9245.chunk.js.map": "/http.//KellyyDuong.github.io/Kelly/static/js/787.543d9245.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59f1783a.css",
+    "static/js/main.9484dd75.js"
+  ]
+}
