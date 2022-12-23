@@ -91,6 +91,10 @@ const JobList = () => {
         "Build products that are scalable, low cost, and easy to manage/use."
       ]
     },
+    Amazon: {
+      jobTitle: "Software Engineer Intern",
+      duration: "PRESENT"
+    }
   };
 
   const handleChange = (event, newValue) => {
