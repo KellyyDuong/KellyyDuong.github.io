@@ -89,6 +89,12 @@
       padding-left: unset;
       padding-right: unset;
       padding-top: 30%;
+      margin: 5px;
+      margin-left: -10px;
+    }
+
+    .section-title {
+      font-size: 35px;
     }
   
     .about-description {

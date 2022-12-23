@@ -83,11 +83,13 @@
       height: unset;
       padding-left: unset;
       padding-right: unset;
+      margin: 5px;
     }
     .carousel {
       display: none;
     }
     .projects-grid {
       grid-gap: 75px;
+      margin-left: -50px;
     }
   }
