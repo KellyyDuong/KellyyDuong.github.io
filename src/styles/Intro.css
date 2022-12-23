@@ -89,18 +89,19 @@ canvas {
     }
   
     .intro-title {
-      font-size: 46px;
+      font-size: 50px;
     }
     .intro-name {
       font-size: 46px;
     }
   
-    .Typist {
+    .Typewriter {
       font-size: 36px;
     }
   
     .intro-subtitle {
       margin: 0;
+      margin-top: -15px;
       font-size: 28px;
       text-align: center;
     }
@@ -110,11 +111,13 @@ canvas {
       text-align: center;
       max-width: unset;
       padding-bottom: 40px;
+      margin-top: -5px;
     }
   
     .intro-contact {
       font-size: 16px;
       align-self: center;
       margin-left: 30%;
+      padding: 10px 25px;
     }
   }

@@ -9,6 +9,7 @@
     grid-template-columns: repeat(3, minmax(300px, 1fr));
     grid-gap: 10px;
   }
+
   @media (max-width: 1080px) {
     .projects-grid {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -85,5 +86,8 @@
     }
     .carousel {
       display: none;
+    }
+    .projects-grid {
+      grid-gap: 75px;
     }
   }
