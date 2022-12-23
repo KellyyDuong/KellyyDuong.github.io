@@ -2,7 +2,7 @@
   kelly's portfolio website - v1
 </h1>
 <p align="center">
-  The first iteration of <a href="https://kellyduong.me" target="_blank">kellyduong.me</a> built with React.js leveraging Material UI.
+  The first iteration of <a href="https://kellyyduong.github.io/Kelly/" target="_blank">kellyduong.me</a> built with React.js leveraging Material UI.
 </p>
 
 ## 🛠 set-up
