@@ -14,6 +14,12 @@ class Projects extends React.Component {
                 techStack: "React.js, HTML / SCSS, Node.js",
                 link: "https://github.com/DylanTse/supply-chain"
             },
+            "Ping-Pong": {
+              desc:
+                "A simple ping-pong game against the computer.",
+                techStack: "Javascript, HTLM / CSS",
+                link: "https://github.com/KellyyDuong/PingPong"
+            },
             "Tic-Tac-Toe": {
                 desc:
                     "Two-player tic-tac-toe game built using Python",
