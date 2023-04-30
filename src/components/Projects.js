@@ -14,6 +14,12 @@ class Projects extends React.Component {
                 techStack: "React.js, HTML / SCSS, Node.js",
                 link: "https://github.com/DylanTse/supply-chain"
             },
+            "Nocial": {
+              desc:
+                "A mobile app that promotes healthy social media usage through friendly competition among friends.",
+                techStack: "Java, Flask, MySQL",
+                link: "https://github.com/KellyyDuong/dam_social"
+            },
             "Ping-Pong": {
               desc:
                 "A simple ping-pong game against the computer.",

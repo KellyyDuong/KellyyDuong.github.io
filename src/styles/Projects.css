@@ -23,8 +23,9 @@
     flex-direction: column;
     /* align-items: flex-start; */
     position: relative;
-    height: 100%;
-    padding: 2rem 1.75rem;
+    height: 80%;
+    padding: 2rem 1.5rem;
+    padding-bottom: 35px;
     background-color: var(--light-navy);
     border-radius: 16px;
   }
@@ -62,11 +63,13 @@
     color: var(--lightest-slate);
     font-size: 24px;
     font-weight: bold;
+    margin-top: -15px;
   }
   
   .card-desc {
     font-family: "NTR", sans-serif;
     color: var(--slate);
+    line-height: 30px;
     font-size: 18px;
     padding-bottom: 40px;
   }
