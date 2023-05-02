@@ -16,14 +16,14 @@ class Projects extends React.Component {
             },
             "Nocial": {
               desc:
-                "A mobile app that promotes healthy social media usage through friendly competition among friends.",
-                techStack: "Java, Flask, MySQL",
+                "An Android app that promotes healthy social media usage through friendly competition among friends.",
+                techStack: "Java, Flask, Android Studio",
                 link: "https://github.com/KellyyDuong/dam_social"
             },
             "Ping-Pong": {
               desc:
                 "A simple ping-pong game against the computer.",
-                techStack: "Javascript, HTLM / CSS",
+                techStack: "Javascript, HTML / CSS",
                 link: "https://github.com/KellyyDuong/PingPong"
             },
             "Tic-Tac-Toe": {
