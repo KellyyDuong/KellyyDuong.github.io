@@ -9,7 +9,7 @@ class About extends React.Component {
    render () {
     const one = (
         <p>
-          I am currently a third year <b>Computer Science and Mathematics</b> major at the
+          I am currently a third year <b>Computer Science</b> major at the
           <a href="https://www.utexas.edu">
             {" "}
             University of Texas at Austin
