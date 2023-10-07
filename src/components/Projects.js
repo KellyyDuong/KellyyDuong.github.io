@@ -17,20 +17,26 @@ class Projects extends React.Component {
             "Nocial": {
               desc:
                 "An Android app that promotes healthy social media usage through friendly competition among friends.",
-                techStack: "Java, Flask, Android Studio",
-                link: "https://github.com/KellyyDuong/dam_social"
+              techStack: "Java, Flask, Android Studio",
+              link: "https://github.com/KellyyDuong/dam_social"
+            },
+            "Baba is Us": {
+              desc:
+                  "A modified version of the popular puzzle game Baba is You, incorporating multiplayer mode.",
+              techStack: "Java, Processing",
+              link: "https://github.com/KellyyDuong/Baba-is-Us"    
             },
             "Ping-Pong": {
               desc:
                 "A simple ping-pong game against the computer.",
-                techStack: "Javascript, HTML / CSS",
-                link: "https://github.com/KellyyDuong/PingPong"
+              techStack: "Javascript, HTML / CSS",
+              link: "https://github.com/KellyyDuong/PingPong"
             },
             "Tic-Tac-Toe": {
                 desc:
                     "Two-player tic-tac-toe game built using Python",
-                    techStack: "Python",
-                    link: "httpsL//github.com/KellyyDuong"
+                techStack: "Python",
+                link: "httpsL//github.com/KellyyDuong"
             }
         };
 
